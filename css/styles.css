@@ -22,10 +22,9 @@
     gap: 70px;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-image: url(../assets/img/background.png);
-
 }
 
 
@@ -35,7 +34,6 @@
     height: 101px;
     justify-content: space-between;
     align-items: center;
-    flex-shrink: 0;
     background: rgba(0, 0, 0, 0.50);
 }
 
@@ -83,7 +81,9 @@
     /* 140% */
 }
 
-.main {
+/* -------- home page  ----------- */
+
+.main-home {
     margin-top: 150px;
     display: flex;
     width: 1440px;
@@ -92,7 +92,7 @@
     align-items: flex-start;
 }
 
-.main-content {
+.main-home-content {
     display: flex;
     width: 1214px;
     flex-direction: column;
@@ -129,4 +129,70 @@
     gap: 10px;
     border-radius: 14px;
     background: var(--dark-brown--);
+}
+
+/* --------- menu page ---------*/
+.background-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 70px;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    background-image: url(../assets/img/background.png);
+}
+
+.main-menu {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.card-section {
+    display: flex;
+    padding: 0px 100px;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    width: 600px;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 45px;
+    border: 1px solid var(--dark-brown, #76513C);
+    background: var(--Grey, #F3F3F3);
+    box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+.menu-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.menu-ilustracao {
+    display: flex;
+    width: 210px;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+h2 {
+    color: #000;
+    background-color: #E1D7BD;
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
