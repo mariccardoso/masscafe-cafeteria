@@ -41,7 +41,7 @@
     display: flex;
     width: 1440px;
     height: 101px;
-    padding: 5px 200px;
+    padding: 5px 200    px;
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
@@ -151,6 +151,25 @@
     gap: 40px;
 }
 
+.heading-menu{
+    display: flex;
+width: 1438px;
+padding: 0px 100px;
+align-items: flex-start;
+gap: 40px;
+}
+
+.menu-title{
+    color: var(--dark-brown, #76513C);
+
+/* h2 */
+font-family: "Spectral SC";
+font-size: 40px;
+font-style: normal;
+line-height: normal;
+border-radius: 7px;
+background: var(--main-color, #E1D7BD);
+}
 .card-section {
     display: flex;
     padding: 0px 100px;
